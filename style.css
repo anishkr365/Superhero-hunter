@@ -1,0 +1,98 @@
+    body{
+        background-image: url(./back\ 1.jpg);
+        background-repeat:no-repeat;
+        margin: none;
+        padding: 0;
+
+    }
+    #header{
+        height: 100px;
+        width:100%;
+        border:solid black;
+        background-color: burlywood;
+    }
+    #mysearch{
+    
+        margin-top: 10px;
+    }
+    #Favourites-page{
+    margin-left: 20px;
+
+    }
+    #homepage{
+    margin-left: 20px;
+    }
+    #body-section{
+        background-color:moccasin;
+        height:80vh;
+        width: 70%;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: flex-start;
+        border:solid black;
+        padding-block-start:30px;
+        margin-top: 20px;
+
+    }
+    .container{
+        
+        height: 50vh;
+        width: 20vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .add-to-fav-btn{
+        /* position:relative;
+        height:5rem;
+        width: 3rem;
+        */
+        all : none;
+        border-radius: 50px;
+        padding-block-start: 10px;
+        
+    }
+    /* .image-container{
+        border: darkblue;
+        
+        border-style: solid;
+        margin: 2px; 
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+        
+    } */
+
+    /* .image{
+        height: 200px;
+        width:  200px;
+        
+        position: absolute;
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; */
+        
+        
+    /* .button{
+        
+        display: inline-block;
+        justify-items: flex-end;
+        
+
+    }  */
+    h1{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    h4{
+        margin-top: 4px;
+        margin-bottom: 4px;
+        font-weight: 100;
+    }
